@@ -2,10 +2,10 @@ import twitter
 import random 
 
 class TwitterBot:
-    api = twitter.Api(consumer_key='eN3lDmGaOq3w7lwOFBFn8Q',
-        consumer_secret='37dtR4DhhyPZSX7ItY7sQQ3tdMXrppsjhajHQMPPQ',
-        access_token_key='860420766-EgAZHYwp1JmYtucVFc3GiVZphArqeooh5psr65gl',
-        access_token_secret='fUI9May2eLRjD0IUtac3R7YpQF6gk5XjX18wv8USwc')
+    api = twitter.Api(consumer_key='key',
+        consumer_secret='key',
+        access_token_key='key',
+        access_token_secret='key')
 
     people_helped = [line.replace("\n", "") for line in
             open("people_that_were_helped.txt").readlines()]
